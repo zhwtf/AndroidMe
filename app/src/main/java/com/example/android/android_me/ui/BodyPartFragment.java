@@ -84,8 +84,12 @@ public class BodyPartFragment extends Fragment {
                     } else {
                         mListIndex = 0;
                     }
+                    imageView.setImageResource(mImageIds.get(mListIndex));
                 }
+
             });
+
+
 
         } else {
             Log.v(TAG, "This fragment has a null list of image id's");
