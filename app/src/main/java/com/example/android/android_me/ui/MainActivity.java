@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements MasterListFragmen
         intent.putExtras(b);
 
 
-
+        //update
         // TODO (4) Get a reference to the "Next" button and launch the intent when this button is clicked
         Button nextButton = (Button) findViewById(R.id.next_button);
         nextButton.setOnClickListener(new View.OnClickListener() {
